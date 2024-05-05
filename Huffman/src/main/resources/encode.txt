@@ -1,0 +1,31 @@
+D code: 111011010
+I code: 111011011
+L code: 111011100
+M code: 11100000
+N code: 11100001
+P code: 11100010
+  code: 101
+a code: 1001
+b code: 110000
+c code: 11001
+d code: 01110
+e code: 001
+f code: 111011101
+g code: 1100011
+h code: 11101111
+i code: 1111
+l code: 0000
+, code: 11100011
+m code: 0100
+n code: 0101
+. code: 111001
+o code: 01111
+p code: 111010
+q code: 11101100
+r code: 0110
+s code: 0001
+t code: 1101
+u code: 1000
+v code: 1100010
+
+î=Š_èa+j?¶PïËÔNtì5—^9õÇH~óx`Râ#¿„%Ãğ*èJôÅœæey¼M$JíùÌÀ³è—\PFÎ›éÑgyŞoœ•‘¾ºYĞ”Å(şÙC·úKÓøN:q½å\Å¿jN5›İ˜ÏáÍá”¡9õù²Ù‹‹öMû¾¹÷Bí-ãÙ›ÄÒD®Ñxçöëu¼wû Ôœk7®ùc­7®ùc­<Ş	†ñ±·À«¡)_Noiês}k¾R ö)EàŸØw­ P®Âs{k}t³¡/OmšGy
