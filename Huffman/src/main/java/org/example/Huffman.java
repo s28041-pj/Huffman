@@ -9,53 +9,27 @@ public class Huffman {
     public static HuffmanNode buildHuffmanTree(char[] input) {
         HashMap<String, Integer> frequencyMap = getFrequencyMap(input);
 
-        HuffmanNode root = buildTreeFromFrequencyMap(frequencyMap);
-
-        return root;
-    }
-
-    private static HuffmanNode buildTreeFromFrequencyMap(HashMap<String, Integer> frequencyMap) {
-        HuffmanNode[] nodes = new HuffmanNode[frequencyMap.size()];
-        int index = 0;
+        PriorityQueue priorityQueue = new PriorityQueue(frequencyMap.size());
         for (String label : frequencyMap.keySet()) {
-            nodes[index] = new HuffmanNode(label, frequencyMap.get(label));
-            index++;
+            priorityQueue.offer(new HuffmanNode(label, frequencyMap.get(label)));
         }
 
-        while (nodes.length > 1) {
-            int minIndex1 = 0, minIndex2 = 1;
-            if (nodes[minIndex1].compareTo(nodes[minIndex2]) > 0) {
-                int temp = minIndex1;
-                minIndex1 = minIndex2;
-                minIndex2 = temp;
+        while (!priorityQueue.isEmpty()) {
+            HuffmanNode left = priorityQueue.poll();
+            if (priorityQueue.isEmpty()) {
+                return left;
             }
+            HuffmanNode right = priorityQueue.poll();
 
-            for (int i = 2; i < nodes.length; i++) {
-                if (nodes[i].compareTo(nodes[minIndex1]) < 0) {
-                    minIndex2 = minIndex1;
-                    minIndex1 = i;
-                } else if (nodes[i].compareTo(nodes[minIndex2]) < 0) {
-                    minIndex2 = i;
-                }
-            }
+            HuffmanNode z = new HuffmanNode(left.label + right.label,
+                    left.frequency + right.frequency);
+            z.left = left;
+            z.right = right;
 
-            HuffmanNode z = new HuffmanNode(nodes[minIndex1].label + nodes[minIndex2].label,
-                    nodes[minIndex1].frequency + nodes[minIndex2].frequency);
-            z.left = nodes[minIndex1];
-            z.right = nodes[minIndex2];
-
-            HuffmanNode[] newNodes = new HuffmanNode[nodes.length - 1];
-            int newIndex = 0;
-            for (int i = 0; i < nodes.length; i++) {
-                if (i != minIndex1 && i != minIndex2) {
-                    newNodes[newIndex++] = nodes[i];
-                }
-            }
-            newNodes[newIndex] = z;
-            nodes = newNodes;
+            priorityQueue.offer(z);
         }
 
-        return nodes[0];
+        return null;
     }
 
     private static HashMap<String, Integer> getFrequencyMap(char[] input) {

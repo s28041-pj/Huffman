@@ -1,31 +1,31 @@
-D code: 111011010
-I code: 111011011
-L code: 111011100
+D code: 111001100
+I code: 111001101
+L code: 100101110
 M code: 11100000
-N code: 11100001
-P code: 11100010
+N code: 11100010
+P code: 10010110
   code: 101
-a code: 1001
-b code: 110000
-c code: 11001
-d code: 01110
+a code: 1100
+b code: 100100
+c code: 10011
+d code: 01111
 e code: 001
-f code: 111011101
-g code: 1100011
-h code: 11101111
+f code: 100101111
+g code: 1110010
+h code: 1001010
 i code: 1111
 l code: 0000
-, code: 11100011
+, code: 11100001
 m code: 0100
 n code: 0101
-. code: 111001
-o code: 01111
+. code: 111011
+o code: 01110
 p code: 111010
-q code: 11101100
+q code: 11100011
 r code: 0110
 s code: 0001
 t code: 1101
 u code: 1000
-v code: 1100010
+v code: 11100111
 
-î=Š_èa+j?¶PïËÔNtì5—^9õÇH~óx`Râ#¿„%Ãğ*èJôÅœæey¼M$JíùÌÀ³è—\PFÎ›éÑgyŞoœ•‘¾ºYĞ”Å(şÙC·úKÓøN:q½å\Å¿jN5›İ˜ÏáÍá”¡9õù²Ù‹‹öMû¾¹÷Bí-ãÙ›ÄÒD®Ñxçöëu¼wû Ôœk7®ùc­7®ùc­<Ş	†ñ±·À«¡)_Noiês}k¾R ö)EàŸØw­ P®Âs{k}t³¡/OmšGy
+—9Š_èa+Üj?·ï›”Lôì5Çÿ^3õåH~÷x ó‘ß’Éò|%êbäç8½ÙfÂ%vşNÆ‡ÈYÔKï<Q¹¦útYşw»Á†epo®–|%1J?·íş†ôÇ~†Gl¢¯bßµ3’å—äOäîñbPÉúş\iÅçıÃ@ºï¬ığ»FdxñÁîË6+´\óı‡úİoş853’åêV1ÖËÔ¬c­Ş†ñ±¶O«á)_Nï1Êg}kÿ æ)EÀ?Ø­ P®Âwy«}t³á/NmÊG{
